@@ -1,4 +1,42 @@
-head{
+header{
     position: sticky;
-    top: 0;
+top:0;
+padding:40px;
+background: rgb(104, 142, 199);
+text-align: center;
+    border-radius: 4in;
+}
+
+footer{
+    text-align: center;
+}
+
+.centerElement{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#HomePageWidth{
+    width: 800px;
+}
+
+.bigFont{
+    font-size: 40px;
+}
+
+
+p{
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 4in;
+}
+
+h3, h1{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(205, 185, 231);
 }
